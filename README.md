@@ -1,4 +1,2 @@
-blog.roulotte.im
+This is the data for roulotte.im blog
 ================
-
-Roulotte Blog
