@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <title>{{ page.title }}</title>
+        <meta name="author" content="Benoit Charbonnier" />
+        <meta name="description" content="The fantastic blog of Roulotte.im Collaborative Chat application." />
+        <link rel="stylesheet" href="/css/style.css">
+        
+    </head>
+    <body class="light">
+        <header>
+            <div class="header-wrapper">
+                <h1><a href="/">Roulotte<span>im</span></a></h1>
+                <nav>
+                    <a href="/chat">Chat</a><a href="/logout">Logout</a>
+                    <span class="user">Benoit Charbonnier<img src="http://gravatar.com/avatar/233114852639c3de5702502e28e50e17" class="avatar"></span>
+                </nav>        
+            </div>
+        </header>
+        <section id="main">
+            <div class="content-wrapper">
+                <div class="content">
+                    {{ content }}
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-wrapper">
+                <span>©2012 Roulotte.im • Benoit Charbonnier</span>
+                <a href="//roulotte.im">Roulotte</a>
+            </div>
+        </footer>
+    </body>
+</html>
