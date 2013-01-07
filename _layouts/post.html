@@ -3,17 +3,14 @@ layout: layout
 ---
 <article>
 	<header>
-		<h3><a href="{{ page.url }}">{{ page.title }}</a><h3>
+		<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
 	</header>
 	<div class="content">
 		{{ content }}
 	</div>
 	<footer>
 		<span>{{ page.date | date: "%B %e, %Y" }}</span>
-		<span class="categories">
-			{% for category in page.categories %}
-				{{ category }}
-			{% endfor %}
-		</span>
+		<span class="categories">{{ page.categories | array_to_sentence_string }}</span>
+		<span class="author">{% if page.author %}{{ page.author }}{% else %}Benoit{% endif %}</span>
 	</footer>
 </article>

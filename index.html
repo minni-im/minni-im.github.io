@@ -1,18 +1,22 @@
 ---
 layout: layout
 ---
+
 {% for post in site.posts limit:5 %}
 <article>
 	<header>
-		<h3><a href="{{ post.url }}">{{ post.title }}</a><h3>
+		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 	</header>
 	<div class="content">
-		{{ post.content | split:'<!-- excerpt end -->' | first | split:'<!-- excerpt start -->' | last }}
-    	<p><a href="{{ post.url }}">more &raquo;</a></p>
+		{% capture excerpt %}{{ post.content | split:'<!-- excerpt end -->' | first | split:'<!-- excerpt start -->' | last }}{% endcapture %}
+		{{excerpt}}
+		{% if excerpt != post.content %}
+    <p><a href="{{ post.url }}">more &raquo;</a></p>
+    {% endif %}
 	</div>
 	<footer>
 		<span>{{ post.date | date: "%B %e, %Y" }}</span>
-		<span class="categories">{{ post.categories| join:', ' }}</span>
+		<span class="categories">{{ post.categories | array_to_sentence_string }}</span>
 		<span class="author">{% if post.author %}{{ post.author }}{% else %}Benoit{% endif %}</span>
 	</footer>
 </article>

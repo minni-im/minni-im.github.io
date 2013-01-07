@@ -1,0 +1,47 @@
+---
+layout: layout
+---
+
+{% for cat_info in  site.categories %}
+  {% capture name %}{{cat_info|first}}{% endcapture %}
+  <section class="category" id="cat-{{name}}">
+    <ul>
+      {% assign year = '' %}
+      {% assign month = '' %}
+
+      {% for post in site.categories[name] %}
+
+      {% capture current_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% capture current_month %}{{ post.date | date: "%B" }}{% endcapture %}
+      {% if year != current_year %}
+      <li class="year">{{current_year}}</li>
+      {% assign year = current_year %}
+      {% endif %}
+
+      {% if month != current_month %}
+      <li class="month">{{current_month}}</li>
+      {% assign month = current_month %}
+      {% endif %}
+
+      <li><a href="{{post.url}}">{{post.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+
+<script type="text/javascript">
+
+function update() {
+  $('.category').hide();
+  var hash = window.location.hash.substr(1);
+  $('#cat-'+hash).show();
+}
+
+$(window).ready(function () {
+  update();
+
+  $(window).bind('hashchange', function() {
+    update();
+  });
+});
+</script>
