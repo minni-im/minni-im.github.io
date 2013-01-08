@@ -3,5 +3,6 @@ pygments: true
 permalink: /:year/:month/:title
 auto: true
 
-name: Benoit Charbonnier
+name: Roulotte Blog
+author: Benoit Charbonnier
 url: http://blog.roulotte.im
