@@ -3,10 +3,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <title>{% if page.title %}{{ page.title }} . {% endif %}Roulotte Blog</title>
-        <meta name="author" content="Benoit Charbonnier" />
+        <meta name="author" content="{{ site.name }}" />
         <meta name="description" content="The fantastic blog of Roulotte.im Collaborative Chat application." />
+        <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+        
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/roulotte.css">
         <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
