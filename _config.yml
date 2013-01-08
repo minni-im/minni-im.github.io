@@ -3,6 +3,11 @@ pygments: true
 permalink: /:year/:month/:title
 auto: true
 
+lsi: true
+
 name: Roulotte Blog
 author: Benoit Charbonnier
 url: http://blog.roulotte.im
+
+disqus:
+  short_name: roulotteblog

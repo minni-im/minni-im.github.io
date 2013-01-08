@@ -18,6 +18,18 @@ layout: layout
 		<span>{{ post.date | date: "%B %e, %Y" }}</span>
 		<span class="categories">{{ post.categories | array_to_sentence_string }}</span>
 		<span class="author">{% if post.author %}{{ post.author }}{% else %}Benoit{% endif %}</span>
+        <span class="comments"><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ site.url }}{{ post.id }}">Comment this post</a></span>
 	</footer>
 </article>
 {% endfor %}
+
+<script type="text/javascript">
+    var disqus_shortname = '{{ site.disqus.short_name }}';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+

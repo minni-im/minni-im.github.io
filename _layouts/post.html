@@ -13,4 +13,5 @@ layout: layout
 		<span class="categories">{{ page.categories | array_to_sentence_string }}</span>
 		<span class="author">{% if page.author %}{{ page.author }}{% else %}Benoit{% endif %}</span>
 	</footer>
+    {% include disqus.html %}
 </article>
