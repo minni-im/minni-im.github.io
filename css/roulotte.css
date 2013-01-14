@@ -438,20 +438,10 @@ article .content ul {
 .content blockquote {
     font-style: italic;
     font-size: 14px;
-    padding: .25em 1em;
-    margin: 1em 1em 0 1em;
-    color: #444;
-}
-
-.content blockquote cite:before {
-     content: '— ';
-}
-.content blockquote cite {
-    display: block;
-    margin-top: .5em;
-    text-align: right;
-    color: #111;
-    font-style: normal;
+    padding: 0 5px;
+    margin: 10px;
+    color: #999;
+    border-left: 10px solid #999;
 }
 
 article footer {
