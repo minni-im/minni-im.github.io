@@ -446,7 +446,10 @@ article .content ul {
 
 .content > pre {
     font-size: 14px;
-    margin-left: 10px;
+    margin: 0;
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 3px;
 }
 
 .content > pre code {
