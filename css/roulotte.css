@@ -444,6 +444,15 @@ article .content ul {
     border-left: 10px solid #999;
 }
 
+.content > pre {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.content > pre code {
+    white-space: pre-wrap;
+}
+
 article footer {
 	color: #666;
 	font-size: 13px;
