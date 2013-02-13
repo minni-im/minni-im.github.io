@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Various enhancements
-category: news release
+categories: news release
 ---
 
 <!-- excerpt start -->
 Several weeks have passed since the launch of the beta, and I haven't given much news about what i was busy working.
 
-Here is a short status for bugs and new features
+Here is a short status for bugs and new features.
 
 <!-- excerpt end -->
 ## Bugs
