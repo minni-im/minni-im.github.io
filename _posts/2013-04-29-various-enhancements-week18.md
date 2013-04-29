@@ -25,7 +25,9 @@ from [buukkit](https://buukkit.appspot.com) have not been pasted in chat using h
 ### Is Typing
 
 You now have the ability to see who is typing live.
+
 ![Is typing][is_typing_1]
+
 ![People in the room 'is typing'][is_typing_2]
 
 ### History navigation
@@ -42,6 +44,7 @@ notification as soon as new messages are coming.
 ### Days separator
 
 I changed the way messages are regrouped by days. It is now easier to see these separators.
+
 ![New days separators][day_separator]
 
 [is_typing_1]: http://blog.roulotte.im/images/2013/04/is_typing_1.png
