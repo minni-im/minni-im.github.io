@@ -44,7 +44,7 @@ notification as soon as new messages are coming.
 I changed the way messages are regrouped by days. It is now easier to see these separators.
 ![New days separators][day_separator]
 
-[is_typing_1]: http://blog.roulotte.im/images/2013/04/is_typing_1.tiff
-[is_typing_2]: http://blog.roulotte.im/images/2013/04/is_typing_2.tiff
-[day_separator]: http://blog.roulotte.im/images/2013/04/day_separator.tiff
-[new_messages]: http://blog.roulotte.im/images/2013/04/new_messages.tiff
+[is_typing_1]: http://blog.roulotte.im/images/2013/04/is_typing_1.png
+[is_typing_2]: http://blog.roulotte.im/images/2013/04/is_typing_2.png
+[day_separator]: http://blog.roulotte.im/images/2013/04/day_separator.png
+[new_messages]: http://blog.roulotte.im/images/2013/04/new_messages.png
