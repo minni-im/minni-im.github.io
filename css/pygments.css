@@ -3,18 +3,15 @@
   background-color: #eee;
   font-size: 12px;
   padding: 0px 15px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  overflow: hidden;
+  border-radius: 5px;
   text-shadow: none;
   color: #111;
+  overflow: auto;
 }
 .hightlight code{
   float: left;
 }
-.highlight:hover {
-  overflow: auto;
-}
+
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #888888 } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */

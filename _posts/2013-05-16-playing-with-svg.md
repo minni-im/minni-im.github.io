@@ -22,7 +22,7 @@ So I ended up with this:
 
 On the left, the original image, on the right the SVG one
 
-<div style="background: url(/images/2013/05/background-sidebar-left.jpg) top left repeat; padding: 5px; text-align: center;">
+<p style="background: url(/images/2013/05/background-sidebar-left.jpg) top left repeat; padding: 5px; text-align: center;">
     <style type="text/css"> .lobby {width: 32px; height: 32px; } </style>
 	<img src="/images/2013/05/lobby.png" />
 	<svg class="lobby">
@@ -30,7 +30,7 @@ On the left, the original image, on the right the SVG one
     	<line stroke-dasharray="4,2,28" x1="6" y1="16" x2="26" y2="16" stroke="#f9f9f9" stroke-width="4"/>
     	<line stroke-dasharray="4,2,28" x1="6" y1="22" x2="26" y2="22" stroke="#f9f9f9" stroke-width="4"/>
 	</svg>
-</div>
+</p>
 
 {% highlight html %}
 <svg>
@@ -42,7 +42,7 @@ On the left, the original image, on the right the SVG one
 
 ### Public room icon
 
-<div style="background: url(/images/2013/05/background-sidebar-left.jpg) top left repeat; padding: 5px; text-align: center;">
+<p style="background: url(/images/2013/05/background-sidebar-left.jpg) top left repeat; padding: 5px; text-align: center;">
 	<style type="text/css"> .public_room { width: 24px; height: 24px; border: 4px solid #fff; border-radius: 6px; } </style>
 	<img src="/images/2013/05/group-room.png" />
 	<svg class="public_room">
@@ -50,7 +50,7 @@ On the left, the original image, on the right the SVG one
 		<line stroke-dasharray="4,2,4,2,4" x1="4" y1="12" x2="20" y2="12" stroke="#f9f9f9" stroke-width="4"/>
 		<line stroke-dasharray="4,2,4,2,4" x1="4" y1="18" x2="20" y2="18" stroke="#f9f9f9" stroke-width="4"/>
 	</svg>
-</div>
+</p>
 
 For the border I decided to still use CSS, with a simple `border: 4px solid #fff` and `border-radius: 6px`
 
@@ -66,7 +66,7 @@ For the border I decided to still use CSS, with a simple `border: 4px solid #fff
 
 For this one I created a new one, more relevant to me.
 
-<div style="background: url(/images/2013/05/background-sidebar-left.jpg) top left repeat; padding: 5px; text-align: center;">
+<p style="background: url(/images/2013/05/background-sidebar-left.jpg) top left repeat; padding: 5px; text-align: center;">
 	<style type="text/css"> .private_room { width: 24px; height: 24px; border: 4px solid #fff; border-radius: 6px; } </style>
 	<img src="/images/2013/05/private-room.png" />
 	<svg class="private_room">
@@ -79,7 +79,7 @@ For this one I created a new one, more relevant to me.
 	    	<rect x="16" y="16" width="4" height="4" fill="#f9f9f9" />
 		</g>
 	</svg>
-</div>
+</p>
 
 Same story than above for the border.
 
