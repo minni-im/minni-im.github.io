@@ -5,7 +5,7 @@ categories: code
 ---
 
 <!-- excerpt start -->
-Lately I was playing with SVG a bit.
+Lately I was playing a bit with SVG.
 
 [Patrick](http://twitter.com/patrickbrosset), a friend of mine, recently bought a Macbook Pro Retina
 and suddenly I had to face the truth:
