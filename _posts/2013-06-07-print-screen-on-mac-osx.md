@@ -24,4 +24,4 @@ If you are more into the clipboard
 * **⌘ + control + shift + 4, then select an area**: Take a screenshot of an area and save it to the clipboard
 * **⌘ + control + shift + 4, then space, then click a window**: Take a screenshot of a window and save it to the clipboard
 
-By the way, if you are more a Windows guy, I suggest you have a look at [greenshot](http://getgreenshot.org/), it absolutely fantastic !
+By the way, if you are more a Windows guy, I suggest you have a look at [greenshot](http://getgreenshot.org/), it's absolutely fantastic !
