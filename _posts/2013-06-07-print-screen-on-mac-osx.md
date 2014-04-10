@@ -14,14 +14,14 @@ So I finally found a [guide](http://guides.macrumors.com/Taking_Screenshots_in_M
 
 If you want to generate an image file
 
-* **⌘ + shift + 3**: Take a screenshot of the screen, and save it as a file on the desktop
-* **⌘ + shift + 4, then select an area**: Take a screenshot of an area and save it as a file on the desktop
-* **⌘ + shift + 4, then space, then click a window**: Take a screenshot of a window and save it as a file on the desktop
+* **&#8984; + shift + 3**: Take a screenshot of the screen, and save it as a file on the desktop
+* **&#8984; + shift + 4, then select an area**: Take a screenshot of an area and save it as a file on the desktop
+* **&#8984; + shift + 4, then space, then click a window**: Take a screenshot of a window and save it as a file on the desktop
 
 If you are more into the clipboard
 
-* **⌘ + control + shift + 3**: Take a screenshot of the screen, and save it to the clipboard
-* **⌘ + control + shift + 4, then select an area**: Take a screenshot of an area and save it to the clipboard
-* **⌘ + control + shift + 4, then space, then click a window**: Take a screenshot of a window and save it to the clipboard
+* **&#8984; + control + shift + 3**: Take a screenshot of the screen, and save it to the clipboard
+* **&#8984; + control + shift + 4, then select an area**: Take a screenshot of an area and save it to the clipboard
+* **&#8984; + control + shift + 4, then space, then click a window**: Take a screenshot of a window and save it to the clipboard
 
 By the way, if you are more a Windows guy, I suggest you have a look at [greenshot](http://getgreenshot.org/), it's absolutely fantastic !

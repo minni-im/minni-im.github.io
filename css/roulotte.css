@@ -311,190 +311,207 @@ input[type="submit"] {
 	thead { display: none; }
 }
 /** **************END RESET************ */
-.muted{color:#999999;}
-small{font-size:100%;}
+
+
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
 .clearfix:after{clear:both;}
 
 a {
-	color: #1C699E;
+	color: #48a6fd;
 	text-decoration: none;
 }
 
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
 
 body {
 	margin: 0;
-	background-color: #F9F9F9;
-	font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
-	font-size: 16px;
-	line-height: 19px;
-	color: #212121;
+	background-color: #fff;
+	font: 14px/20px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	color: #2d333b;
 }
 
-.wrapper {
-	width: 960px;
-	margin: 0 auto;
-}
 
-header.main {
-	width: 240px;
+body > header {
+	width: 250px;
 	position: fixed;
-	top: 0;
-	padding-top: 40px;
-	text-align: left;
+	top: 0px;
+	bottom: 0px;
+	background-color: #2d333b;
+	color: #f9f9f9;
 }
 
-header.main h1 {
-	text-transform: lowercase;
-	color: #F9F9F9;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-	line-height: 60px;
-	font-size: 32px;
-	font-weight: 600;
-	margin-top: 8px;
+body > header h1, article header h2 {
+	font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin: 6px 0 0;
+    padding: 0 15px;
 }
 
-header.main h1 a {
-	color: #212121;
-	text-decoration: none;
+body > header h2, article header h3 {
+    font-weight: 300;
+    font-size: 14px;
+    margin: -2px 0 5px;
+    padding: 0 15px;
 }
 
-header.main h1 span {
-	background-color: #FFD943;
-	background-image: -moz-linear-gradient(top, #FFD943, #F5C400);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFD943), to(#F5C400));
-	background-image: -webkit-linear-gradient(top, #FFD943, #F5C400);
-	background-image: linear-gradient(to bottom, #FFD943, #F5C400);
-	background-repeat: repeat-x;
-	color: #212121;
-	padding: 0 5px;
-	border-radius: 5px;
-	margin-left: 5px;
-	position: relative;
+body > header h1 a {
+	color: #f9f9f9;
+	line-height: 1rem;
 }
 
-header.main h1 span:after {
-	position: absolute;
-	right: 60%;
-	bottom: -10px;
-	content: "";
-	border-left: 10px solid #F5C400;
-	border-bottom: 10px solid transparent;
-	z-index: 100;
+body > header nav {
+    margin-top: 50px;
 }
 
-header.main h2 {
-	margin: -33px 0 0;
-	font-weight: 300;
-}
-
-header.main hgroup {
-	margin: 0 0 80px;
-}
-
-header nav a {
-	font-size: 21px;
-	margin-bottom: 10px;
+body > header nav a {
+    position: relative;
+    color: inherit;
 	display: block;
-	color: #333;
-	opacity: 0.8;
+	padding: 8px 15px 8px;
 }
-header.main nav a:hover { opacity: 1; }
 
+body > header nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
+body > header nav a.selected {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body > header nav a.selected:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -1px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff;
+    margin-top: -10px;
+}
 
 #main {
-	position: relative;
-	left: 260px;
-	min-height: 330px;
-	padding-top: 195px;
-	margin-right: 240px;
+	margin-left: 250px;
 }
 
 article {
 	margin-bottom: 80px;
 }
 
+article header h2 a {
+    color: inherit;
+}
+article header h2 a:hover {
+    color: #48a6fd;
+}
+
 article header h3 {
-	margin-top: 0;
-	font-size: 32px;
-	font-weight: 600;
+    color: #999999;
 }
 
-article header h3 a {
-	color: #333;
+article .content {
+    margin: 60px 0 15px;
+    padding: 0 15px;
 }
-
-article header h3 a:hover { text-decoration: underline; }
 
 article .content ul {
 	padding-left: 25px;
 }
 
 .content blockquote {
-    font-style: italic;
-    font-size: 14px;
-    padding: 0 5px;
-    margin: 10px;
-    color: #999;
-    border-left: 10px solid #999;
+    border-left: 4px solid #DDD;
+    padding: 0 15px;
+    color: #777;
+    margin: 15px 0;
 }
 
-.content > pre {
-    font-size: 14px;
-    margin: 0;
-    background-color: #EEE;
-    padding: 10px;
-    border-radius: 3px;
+.content code {
+    margin: 0 0px;
+    padding: 0px 0px;
+    /*white-space: nowrap;*/
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
 }
 
-.content > pre code {
-    white-space: pre-wrap;
+.highlight code {
+    background-color: inherit;
+    border: 0px;
+    /*white-space: normal;*/
+}
+
+article .content h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+article .content h3 {
+    color:  #48a6fd;
+}
+article .content h4, h5, h6 {
+    color:  #0061bc;
 }
 
 article footer {
-	color: #666;
+	padding: 0 15px;
 	font-size: 13px;
+	color: #999;
 }
 
-article footer span {
+article footer .categories {
+	padding: 5px;
+	background-color: #eee;
+	border-radius: 2px;
+}
+
+article footer .categories span, article footer .category {
+	text-transform: capitalize;
 	display: inline-block;
 	margin-right: 15px;
 }
 
-article footer span.categories {
-	text-transform: capitalize;
-}
-
-
-article footer span.author:before {
-	content: 'by';
-	margin-right: 5px;
-	color: #999;
-}
-
-footer.main {
+body > footer {
 	position: fixed;
-	bottom: 10px;
-	margin: 10px 0 0;
-	color: #999;
+	bottom: 20px;
+	left: 0px;
+	width: 250px;
 	font-size: 11px;
+	color: #f9f9f9;
+	text-align: center;
+	line-height: 19px;
 }
 
-footer.main > span {
+body > footer img {
+    width: 158px;
+    height: 158px;
+    margin: 20px auto 0;
+}
+
+body > footer > span {
 	display: block;
 }
 
-footer.main a {
+body > footer a {
 	margin-left: 5px;
 }
 
-#main .category ul {
-	margin-top: 0;
+/* HOME PAGE */
+
+.home article .content {
+
+}
+
+
+/* CATEGORY PAGE */
+.cat article {
+    margin-bottom: 60px;
+}
+.category ul {
+    padding: 0 15px;
 }
 
 .category li {
@@ -503,8 +520,8 @@ footer.main a {
 }
 
 .category li.year {
-	font-size: 21px;
-	color: #333;
+	font-size: 28px;
+	color: #48a6fd;
 	margin: 20px 0;
 }
 
@@ -517,8 +534,12 @@ footer.main a {
 	color: #333;
 }
 
+.dsq-brlink {
+    padding: 0 15px;
+}
 #disqus_thread {
     margin-top: 30px;
+    padding: 0 15px;
 }
 
 

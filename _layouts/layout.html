@@ -9,33 +9,33 @@
         <meta name="author" content="{{ site.author }}" />
         <meta name="description" content="The fantastic blog of Roulotte.im Collaborative Chat application." />
         <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
-
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,300,300italic,100,100italic' />
         <link rel="stylesheet" href="/css/pygments.css">
         <link rel="stylesheet" href="/css/roulotte.css">
         <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
     </head>
-    <body>
-        <div class="wrapper">
-            <header class="main">
-                <hgroup>
-                    <h1><a href="/">Roulotte<span>im</span></a></h1>
-                    <h2>dev blog</h2>
-                </hgroup>
-                <nav>
-                    {% for catinfo in site.categories %}
-                    {% capture category %}{{catinfo|first}}{% endcapture %}
-                    <a href="/category.html#{{category}}">{{category |capitalize}}</a>
-                    {% endfor %}
-                </nav>
-            </header>
-            <section id="main">
-                {{ content }}
-            </section>
-            <footer class="main">
-                <span>©{{site.time|date:'%Y'}} Roulotte.im</span>
-                <span>Benoit Charbonnier <a href="https://roulotte.im">roulotte.im</a></span>
-            </footer>
+    <body {% if page.class %}class="{{ page.class }}"{% endif %}>
+        <header>
+            <hgroup>
+                <h1><a href="/">Roulotte</a></h1>
+                <h2>dev blog</h2>
+            </hgroup>
+            <nav id="cat-nav">
+                <a href="/" class="selected" data-cat="all">All</a>
+                {% for catinfo in site.categories %}
+                {% capture category %}{{catinfo|first}}{% endcapture %}
+                <a href="/category.html#{{category}}" data-cat="{{category}}">{{category |capitalize}}</a>
+                {% endfor %}
+            </nav>
+        </header>
+        <section id="main">
+            {{ content }}
+        </section>
+        <footer>
+            <img src="/images/roulotte-logo.svg" />
+            <span>&copy;{{site.time|date:'%Y'}} Roulotte.im</span>
+            <span>Benoit Charbonnier <a href="https://roulotte.im">roulotte.im</a></span>
+        </footer>
         </div>
     </body>
 </html>

@@ -1,6 +1,13 @@
 ---
 layout: layout
+class: cat
 ---
+<article>
+    <header>
+        <h2>Archives</h2>
+        <h3>The old stuff</h3>
+    </header>
+</article>
 
 {% for cat_info in  site.categories %}
   {% capture name %}{{cat_info|first}}{% endcapture %}
@@ -35,6 +42,15 @@ function update() {
   $('.category').hide();
   var hash = window.location.hash.substr(1);
   $('#cat-'+hash).show();
+
+  var cats = document.querySelectorAll('#cat-nav a');
+  for(var i = 0, l = cats.length; i < l; i++) {
+      var cat_link = cats[i];
+      cat_link.classList.remove("selected");
+      if (cat_link.dataset.cat === hash) {
+          cat_link.classList.add("selected");
+      }
+  }
 }
 
 $(window).ready(function () {
