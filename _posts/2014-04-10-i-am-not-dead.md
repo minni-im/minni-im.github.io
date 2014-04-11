@@ -25,15 +25,15 @@ I have been working for a while on a UI redesign. I am not at all a designer,
 but I usually kinda like to play a bit with pixels and colors (even if I am colorblind).
 So every single visual stuff in roulotte has been patiently crafted by myself.
 
-Lately, I tought I should concentrate on finding a proper branding instead of fixing [bugs](https://bitbucket.org/bcharbonnier/roulotte/issues).
-I tried, retried, erased it, tried again, and finally I got it. It was there, right in front of me.
+Lately, I tought I should concentrate on finding a proper branding instead of fixing [bugs](https://bitbucket.org/bcharbonnier/roulotte/issues). It always had been some kind of false priority to me.
+So I tried, retried, erased it, retried again, and finally I got something. It was there, right in front of me.
 
-<img style="width: 60px;" src="/images/2014/04/first-draft.jpg" />
+<img style="width: 90px;" src="/images/2014/04/first-draft.jpg" />
 
 The blog is the first one to benefit from this new style and branding. I spent some time scracthing my head to find a
-nice logo for roulotte. I always had been some kind of false priority to me. Nevertheless I must admit that I am really happy and proud of the outcome.
+nice logo for roulotte.  Nevertheless I must admit that I am really happy and proud of the outcome.
 
-So here is the new brand logos I produced
+Here is the (let's hope) final version of the new brand logos I produced
 
 <img style="with: 158px;height: 158px;vertical-align:middle" src="/images/roulotte-logo.svg" />
 <img style="with: 78px;height: 78px;vertical-align:middle" src="/images/roulotte-hexa-logo.svg" />
