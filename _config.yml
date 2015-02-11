@@ -6,9 +6,9 @@ exclude: ['POST-IT.md', 'README.md']
 
 lsi: true
 
-name: Roulotte Blog
+name: Minni Blog
 author: Benoit Charbonnier
-url: http://blog.roulotte.im
+url: http://blog.minni.im
 
 disqus:
   short_name: roulotteblog
