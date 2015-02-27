@@ -35,6 +35,6 @@ nice logo for roulotte.  Nevertheless I must admit that I am really happy and pr
 
 Here is the (let's hope) final version of the new brand logos I produced
 
-<img style="with: 158px;height: 158px;vertical-align:middle" src="/images/roulotte-logo.svg" />
-<img style="with: 78px;height: 78px;vertical-align:middle" src="/images/roulotte-hexa-logo.svg" />
+<img style="with: 158px;height: 158px;vertical-align:middle" src="/images/2014/04/roulotte-logo.svg" />
+<img style="with: 78px;height: 78px;vertical-align:middle" src="/images/2014/04/roulotte-hexa-logo.svg" />
 

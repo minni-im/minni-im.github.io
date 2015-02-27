@@ -47,7 +47,7 @@ I changed the way messages are regrouped by days. It is now easier to see these 
 
 ![New days separators][day_separator]
 
-[is_typing_1]: http://blog.roulotte.im/images/2013/04/is_typing_1.png
-[is_typing_2]: http://blog.roulotte.im/images/2013/04/is_typing_2.png
-[day_separator]: http://blog.roulotte.im/images/2013/04/day_separator.png
-[new_messages]: http://blog.roulotte.im/images/2013/04/new_messages.png
+[is_typing_1]: http://blog.minni.im/images/2013/04/is_typing_1.png
+[is_typing_2]: http://blog.minni.im/images/2013/04/is_typing_2.png
+[day_separator]: http://blog.minni.im/images/2013/04/day_separator.png
+[new_messages]: http://blog.minni.im/images/2013/04/new_messages.png

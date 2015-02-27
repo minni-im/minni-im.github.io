@@ -56,11 +56,11 @@ With this new [profile page](http://roulotte.im/profile), you now have the abili
 Once attached, you'll be able to login using any of these granted associated provider.
 
 
-[room_presence]: http://blog.roulotte.im/images/2013/02/people_in_the_room.png
-[room_presence_setting]: http://blog.roulotte.im/images/2013/02/people_in_the_room_setting.png
+[room_presence]: http://blog.minni.im/images/2013/02/people_in_the_room.png
+[room_presence_setting]: http://blog.minni.im/images/2013/02/people_in_the_room_setting.png
 
-[roulotte_list_offline]: http://blog.roulotte.im/images/2013/02/roulotte_list_offline.png
-[roulotte_list]: http://blog.roulotte.im/images/2013/02/roulotte_list_online.png
+[roulotte_list_offline]: http://blog.minni.im/images/2013/02/roulotte_list_offline.png
+[roulotte_list]: http://blog.minni.im/images/2013/02/roulotte_list_online.png
 
-[profile_settings]: http://blog.roulotte.im/images/2013/02/user_profile_settings.png
-[profile_connect]: http://blog.roulotte.im/images/2013/02/user_profile_connection.png
+[profile_settings]: http://blog.minni.im/images/2013/02/user_profile_settings.png
+[profile_connect]: http://blog.minni.im/images/2013/02/user_profile_connection.png
